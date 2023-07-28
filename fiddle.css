@@ -1,0 +1,101 @@
+.img123{
+   width: 80%;
+   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.a{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+
+}
+.d{
+   background:url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);
+   width: 100%;
+   
+}
+.e{
+   margin-top: 120px;
+   color: white;
+   padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.f{
+
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+
+}
+.h{
+       margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+.g{
+     font-family: 'Montserrat',sans-serif;
+         line-height: 1.5;
+}
+.s{
+   font-family: 'Montserrat',sans-serif;
+   color: #fff;
+   text-align: left;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   box-sizing: border-box;
+}
+
+footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+footer img{
+    width: 50%;
+    margin-top: 30px;
+}
+nav .weblogo{
+   width: 65px;
+}
+.navbar{
+    background: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 93px
+    color: #e8ebf0c9;
+        color: #e3e6eb;
+        -webkit-tap-highlight-color: transparent;
+}
+
+
+.moblogo{
+            display: none;
+         }
+
+       @media(max-width: 768px)
+       {
+         .moblogo{
+            display: block;
+         }
+         .weblogo{
+          display: none;
+         }
+         .navbar{
+          background: #fff;
+         }
+         .img12{
+            margin-top: 78px;
+
